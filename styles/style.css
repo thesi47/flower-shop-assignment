@@ -250,6 +250,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    margin-bottom: 128px;
 }
 .insta-title{
     color: rgb(39, 39, 39);
@@ -272,4 +273,54 @@ body{
     }
 .insta-pic-container{
     gap: 24px;
+}
+/* newsletter styles */
+.newsletter{
+    width: 1440px;
+    height: 450px;
+    background-image: url("../Assets/Rectangle\ 9.png");
+    margin: 0 auto 128px auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+      background-repeat: no-repeat;
+}
+.newsletter-title{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 122px;
+}
+.newsletter-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.newsletter-send{
+    height: 64px;
+    gap: 16px;
+}
+.newsletter-form{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 700px;
+    height: 100%;
+    border: none;
 }
