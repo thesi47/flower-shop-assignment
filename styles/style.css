@@ -217,6 +217,7 @@ body{
     background: rgba(229, 84, 115, 0.05);
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 128px;
 }
 .deals-text-container{
     text-align: center;
@@ -236,11 +237,39 @@ body{
 .deal-description{
     color: rgba(39, 39, 39, 0.6);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
     width: 590px;
     margin-bottom: 32px;
+}
+.insta{
+    width: 1440px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.insta-title{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 600px;
+    }
+.insta-pic-container{
+    gap: 24px;
 }
